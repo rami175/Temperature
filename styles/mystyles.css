@@ -1,0 +1,12 @@
+body {
+	font-family: arial;
+}
+.results-zon {
+	background-color: #dedede;
+	width: 300px;
+	height: 200px;
+	text-align: center;
+}
+#results {
+	font-size: 50px;
+}

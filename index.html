@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="./styles/mystyles.css" />
+		<link rel="stylesheet" href="./styles/temperature.css">
 	</head>
 	<body>
 		<h1>JavaScript</h1>
@@ -12,17 +13,31 @@
 			<a href="./temperature.html" target="_blank"
 				>Temperature Convesion 🌡️</a
 			>
-		</div>
 
-		<button onclick="increase()">Counter++</button>
-		<button onclick="decreasCounter()">Counter--</button>
-		<button onclick="sayHi()">Name</button>
-		<button onclick="multiByThree()">Multi by three</button>
-		<button onclick="addNumber()">Adding</button>
-		<div class="results-zon">
-			<h4>Results</h4>
-			<p id="results">10</p>
+			<div class="container">
+				<div class="emoji">
+					<h1 id="weather"></h1>
+					<span id="emojiPic" style="font-size: 100px">&#127777;</span>
+					<h2 id="emojiText">Convert between Celsius and Fahrenheit</h2>
+					<button id="convert-btn" onclick="convert2()">Convert</button>
+				</div>
+
+ 
 		</div>
+		<div style="padding: 10px; margin-top: 20px; border: solid 1px black;">
+
+			<button onclick="increase()">Counter++</button>
+			<button onclick="decreasCounter()">Counter--</button>
+			<button onclick="sayHi()">Name</button>
+			<button onclick="multiByThree()">Multi by 3</button>
+			<button onclick="addNumber()">Adding</button>
+			<div class="results-zon">
+				<h4>Results</h4>
+				<p id="results">10</p>
+			</div>
+		</div>
+		<script src="./scripts/temperature.js"></script>
 		<script src="./scripts/script2.js"></script>
+		<script src="./scripts/script3.js"></script>
 	</body>
 </html>

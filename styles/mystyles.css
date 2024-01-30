@@ -10,3 +10,7 @@ body {
 #results {
 	font-size: 50px;
 }
+/* Login */
+.alert-error {
+	color: red;
+}

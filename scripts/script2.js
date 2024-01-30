@@ -1,7 +1,11 @@
 //functions
 let counter = 0;
 function increase() {
-	console.log(++counter);
+	if (counter < 5) {
+		console.log(counter++);
+	} else if (counter == 5) {
+		console.log("yes");
+	}
 
 	// alert("Hi");
 	// document.write("Hi");

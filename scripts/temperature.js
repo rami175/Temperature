@@ -6,7 +6,7 @@ function convert2() {
 	} else if (tempUnit == "f" || tempUnit == "F") {
 		convertToC(temp);
 	} else {
-		document.getElementById("weather").innerHTML = "Please enter C or f";
+		document.getElementById("weather").innerHTML = "Please enter c or f";
 		document.getElementById("emojiText").innerHTML = "Invelid input";
 		document.getElementById("emojiPic").innerHTML = "&#128683;";
 	}
